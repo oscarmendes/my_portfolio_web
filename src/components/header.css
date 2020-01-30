@@ -1,0 +1,51 @@
+header{
+    background: #333;
+  }
+  
+  .header-font Link, a{
+    /* This is a CSS Combinator called 'descendant selector': 
+       Every <Link> and <a> inherits the format if there's a parent with class .header-font
+    */
+    color: #fff;
+    text-decoration: none; 
+  }
+  
+  html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  /*###################################################
+  /#################   NAVBAR     #####################
+  /####################################################
+  
+    /*The entire navbar is contained here*/
+    .navbar-container{
+      padding: 1.45rem 1.0875rem;
+      margin-bottom: 30px; 
+      max-width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    /*sub-container for the menu*/
+    .navbar-menu{
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      margin-right: 70px;
+    }
+      .navbar-menu div{
+        margin-top: 20px;
+        margin-left: 50px;
+      }
+  
+    /*sub-container for the website title*/
+    .navbar-title{
+      text-decoration: 'none';
+      margin-left: 50px; 
+    }
+  
+  /*################# END OF NAVBAR ###############*/
+  
